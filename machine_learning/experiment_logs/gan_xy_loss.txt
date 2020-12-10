@@ -1,0 +1,102 @@
+[0 minutes][0/50][0/8919]	Loss_D: 1.3869	Loss_G: 0.6669	D(x): 0.0005	D(G(z)): 0.0005 / 0.0005
+[0 minutes][0/50][1000/8919]	Loss_D: 0.9572	Loss_G: 1.0751	D(x): 0.6275	D(G(z)): 0.5722 / 0.5699
+[0 minutes][0/50][2000/8919]	Loss_D: 0.6271	Loss_G: 1.3124	D(x): 0.9877	D(G(z)): 0.0133 / 0.0120
+[0 minutes][0/50][3000/8919]	Loss_D: 0.6268	Loss_G: 1.3130	D(x): 0.9995	D(G(z)): 0.0003 / 0.0003
+[0 minutes][0/50][4000/8919]	Loss_D: 0.6266	Loss_G: 1.3131	D(x): 0.9992	D(G(z)): 0.0090 / 0.0071
+[0 minutes][0/50][5000/8919]	Loss_D: 0.6266	Loss_G: 1.3132	D(x): 0.9999	D(G(z)): 0.0001 / 0.0001
+[0 minutes][0/50][6000/8919]	Loss_D: 0.6265	Loss_G: 1.3132	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][0/50][7000/8919]	Loss_D: 0.6265	Loss_G: 1.3132	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][0/50][8000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+Train generator loss 1.2344174329469204; Train discriminator loss 0.7564756691903595; Eval generator_loss 1.3132375478744507; Eval discriminator loss 0.6265349388122559
+Saving models
+Epoch 1; 8919 examples
+[0 minutes][1/50][0/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 0.0010	D(G(z)): 0.0000 / 0.0000
+[0 minutes][1/50][1000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][1/50][2000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][1/50][3000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][1/50][4000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][1/50][5000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][1/50][6000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][1/50][7000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][1/50][8000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 0.6760 / 0.6770
+Train generator loss 1.134428593850828; Train discriminator loss 0.8366397714077565; Eval generator_loss 0.31325846910476685; Eval discriminator loss 1.6264848709106445
+Saving models
+Epoch 2; 8919 examples
+[0 minutes][2/50][0/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 0.0010	D(G(z)): 0.0010 / 0.0010
+[0 minutes][2/50][1000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+[0 minutes][2/50][2000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+[0 minutes][2/50][3000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 0.9999	D(G(z)): 0.3710 / 0.3690
+[0 minutes][2/50][4000/8919]	Loss_D: 1.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][2/50][5000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0010 / 0.0009
+[0 minutes][2/50][6000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][2/50][7000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][2/50][8000/8919]	Loss_D: 0.7376	Loss_G: 1.3133	D(x): 0.8337	D(G(z)): 0.3400 / 0.3379
+Train generator loss 0.9620060307059485; Train discriminator loss 1.0051523925664914; Eval generator_loss 1.3132386207580566; Eval discriminator loss 0.9666509628295898
+Saving models
+Epoch 3; 8919 examples
+[0 minutes][3/50][0/8919]	Loss_D: 0.6367	Loss_G: 1.3133	D(x): 0.0010	D(G(z)): 0.0000 / 0.0000
+[0 minutes][3/50][1000/8919]	Loss_D: 1.6298	Loss_G: 0.3133	D(x): 0.9016	D(G(z)): 0.6339 / 0.6333
+[0 minutes][3/50][2000/8919]	Loss_D: 1.6266	Loss_G: 0.3133	D(x): 0.9842	D(G(z)): 0.9999 / 0.9999
+[0 minutes][3/50][3000/8919]	Loss_D: 1.6266	Loss_G: 0.3133	D(x): 0.9996	D(G(z)): 1.0000 / 1.0000
+[0 minutes][3/50][4000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 0.9995	D(G(z)): 1.0000 / 1.0000
+[0 minutes][3/50][5000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+[0 minutes][3/50][6000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+[0 minutes][3/50][7000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+[0 minutes][3/50][8000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 0.9999	D(G(z)): 1.0000 / 1.0000
+Train generator loss 0.35234256579090306; Train discriminator loss 1.552333522182447; Eval generator_loss 0.3132686913013458; Eval discriminator loss 1.626551866531372
+Saving models
+Epoch 4; 8919 examples
+[0 minutes][4/50][0/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 0.0010	D(G(z)): 0.0010 / 0.0010
+[0 minutes][4/50][1000/8919]	Loss_D: 0.6305	Loss_G: 1.3047	D(x): 0.9873	D(G(z)): 0.5646 / 0.5621
+[0 minutes][4/50][2000/8919]	Loss_D: 0.6272	Loss_G: 1.3115	D(x): 0.9992	D(G(z)): 0.0046 / 0.0037
+[0 minutes][4/50][3000/8919]	Loss_D: 0.6267	Loss_G: 1.3128	D(x): 0.9979	D(G(z)): 0.0026 / 0.0022
+[0 minutes][4/50][4000/8919]	Loss_D: 0.6267	Loss_G: 1.3129	D(x): 0.9998	D(G(z)): 0.0004 / 0.0003
+[0 minutes][4/50][5000/8919]	Loss_D: 0.6266	Loss_G: 1.3130	D(x): 0.9996	D(G(z)): 0.0002 / 0.0002
+[0 minutes][4/50][6000/8919]	Loss_D: 0.6265	Loss_G: 1.3132	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][4/50][7000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][4/50][8000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+Train generator loss 1.2482295324381645; Train discriminator loss 0.7363057096438339; Eval generator_loss 1.3132383823394775; Eval discriminator loss 0.6265172958374023
+Saving models
+Epoch 5; 8919 examples
+[0 minutes][5/50][0/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 0.0010	D(G(z)): 0.0000 / 0.0000
+[0 minutes][5/50][1000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][5/50][2000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][5/50][3000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][5/50][4000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][5/50][5000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][5/50][6000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][5/50][7000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][5/50][8000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+Train generator loss 1.3132591209466153; Train discriminator loss 0.6721590528949011; Eval generator_loss 1.3132386207580566; Eval discriminator loss 0.6265168786048889
+Saving models
+Epoch 6; 8919 examples
+[0 minutes][6/50][0/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 0.0010	D(G(z)): 0.0000 / 0.0000
+[0 minutes][6/50][1000/8919]	Loss_D: 1.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][6/50][2000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][6/50][3000/8919]	Loss_D: 0.6265	Loss_G: 1.3133	D(x): 1.0000	D(G(z)): 0.0000 / 0.0000
+[0 minutes][6/50][4000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 0.6311 / 0.6322
+[0 minutes][6/50][5000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+[0 minutes][6/50][6000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+[0 minutes][6/50][7000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+[0 minutes][6/50][8000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+Train generator loss 0.6909698684803105; Train discriminator loss 1.234093742308321; Eval generator_loss 0.31325843930244446; Eval discriminator loss 1.6264848709106445
+Saving models
+Epoch 7; 8919 examples
+[0 minutes][7/50][0/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 0.0010	D(G(z)): 0.0010 / 0.0010
+[0 minutes][7/50][1000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+[0 minutes][7/50][2000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+[0 minutes][7/50][3000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+[0 minutes][7/50][4000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+[0 minutes][7/50][5000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+[0 minutes][7/50][6000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+[0 minutes][7/50][7000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+[0 minutes][7/50][8000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+Train generator loss 0.31326165795326233; Train discriminator loss 1.5783115762915227; Eval generator_loss 0.31325843930244446; Eval discriminator loss 1.6264848709106445
+Saving models
+Epoch 8; 8919 examples
+[0 minutes][8/50][0/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 0.0010	D(G(z)): 0.0010 / 0.0010
+[0 minutes][8/50][1000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+[0 minutes][8/50][2000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+[0 minutes][8/50][3000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+[0 minutes][8/50][4000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
+[0 minutes][8/50][5000/8919]	Loss_D: 1.6265	Loss_G: 0.3133	D(x): 1.0000	D(G(z)): 1.0000 / 1.0000
