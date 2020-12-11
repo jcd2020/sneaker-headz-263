@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import csv
 import os
 
-directory = r'data/'
+directory = r'machine_learning/experiment_logs/'
 for filepath in os.listdir(directory):
     if filepath.endswith(".csv"): 
         x = []
@@ -14,7 +14,7 @@ for filepath in os.listdir(directory):
                     continue
                 x.append(float(row[0]))
                 y.append(float(row[1]))
-        plt.scatter(x,y, label='Mouse Location')
+        plt.plot(x,y, label='Mouse Location')
         plt.xlabel('x')
         plt.ylabel('y')
         # plt.xlim(0,1)
@@ -22,4 +22,5 @@ for filepath in os.listdir(directory):
         plt.title('GAN Mouse Trajectory')
         plt.legend()
         plt.gca().invert_yaxis()
-        plt.savefig(directory + filepath[:-4])
+        plt.savefig('pngs/' + filepath[:-4])
+        plt.clf()
