@@ -14,3 +14,5 @@ Histograms of the trajectory statistics were produced using `machine_learning/ev
 
 Some code to run bots is in `bot`.
 
+The report is in `report.pdf`.
+
