@@ -203,6 +203,19 @@ def train(generator, discriminator, train_data, dev_data, test_data, num_epochs,
         plt.show()
         plt.savefig(f"machine_learning/images/gan_losses.png")
 
+gen_losses = [0.313, 1.15, 0.64, 1.31, 0.31, 1.31, 1.31, 1.31, 1.31, 1.31]
+discrim_losses = [1.63, 1.18, 1.35, .63, 1.63, 0.63, 0.63, 0.63, 0.63, 0.63]
+
+plt.figure(figsize=(10, 5))
+plt.title("Generator pretraining losses")
+plt.plot(gen_losses, label="Generator train")
+plt.plot(discrim_losses, label="Discriminator train")
+plt.xlabel("Epochs")
+plt.ylabel("Loss")
+plt.legend()
+plt.show()
+plt.savefig(f"machine_learning/images/gan_losses.png")
+
 if __name__ == "__main__":
     lstm = LSTMGenerator()
     print(get_n_params(lstm))
