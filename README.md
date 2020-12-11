@@ -8,7 +8,7 @@ The original Balabit data, downloaded from https://ms.sapientia.ro/~manyi/moused
 
 In order to train an LSTM run `machine_learning/modules.py`. In order to train a GAN run `machine_learning/lstm_gan.py`. Configure the device to meet your needs (i.e. if you don't have a gpu, set it to "cpu").
 
-Visualizations of the trajectories are in `pngs`.
+Visualizations of the trajectories are in `pngs` and were produced using `plot.py`.
 
 Histograms of the trajectory statistics were produced using `machine_learning/evaluating_results.py` and are saved in `machine_learning/images/Histograms`.
 
