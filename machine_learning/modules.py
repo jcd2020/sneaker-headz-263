@@ -5,9 +5,9 @@ import torch.nn.functional as F
 import torch.optim as optim
 from machine_learning.human_data_ingestion import load_data, MAX_MOVEMENT_SEQUENCE_LENGTH, actions
 import random
-from balabit_feature_extraction.rawdata2actions import processSession1
 import matplotlib.pyplot as plt
 
+# code adapted from https://pytorch.org/tutorials/beginner/nlp/sequence_models_tutorial.html
 
 LSTM_CONFIG = {"input_size": 3, "hidden_size": 96, "dropout": 0.2, "bidrectional": False, "num_layers": 4}
 CLFR_CONFIG = {"input_size": 3, "hidden_size": 64, "dropout": 0.5, "bidrectional": True, "num_layers": 3}
@@ -89,8 +89,7 @@ class LSTMDiscriminator(nn.Module):
         return action_loss
 
 
-def convert_to_action_sequence(movement_sequence):
-    return torch.Tensor(processSession1(movement_sequence))
+
 
 def generate_movement_sequence(model, seq_length, raw_mvmts_train, initial_sequence_size=25):
     initial_mvmts = random.choice(raw_mvmts_train)[0:initial_sequence_size]
