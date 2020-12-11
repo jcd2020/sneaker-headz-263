@@ -6,6 +6,7 @@ import torch.nn as nn
 import matplotlib.pyplot as plt
 import random
 import time
+# Code adapted from https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
 
 device = "cuda"
 ce_loss = nn.CrossEntropyLoss()

@@ -28,7 +28,7 @@ def main_ACTION():
     print('***Evaluating on the test set')
     st.CASE = 'test'
     action_sets, raw_movements = rd.process_files(st.CASE)
-
+    print(raw_movements)
     with open("machine_learning/data/human_test_sessions_raw_mvmts.pkl", "wb+") as f:
         pkl.dump(raw_movements, f)
     rd.process_files(st.CASE)

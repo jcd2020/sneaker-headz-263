@@ -21,6 +21,17 @@ idx2action = {v: k for k,v in action2idx.items()}
 
 def segment_instances(data, max_seq_length):
     # convert raw session data into fixed length sequences for use by RNN
+    avg_timestep = 0
+    counter = 1
+    for session in data:
+        prev_time = float(session[0]["client timestamp"])
+        for step in session[1:]:
+            time = float(step["client timestamp"])
+            avg_timestep += time - prev_time
+            prev_time = time
+            counter += 1
+    print(f"Average duration of timestep {avg_timestep / counter}")
+
     sequences = []
     for session in data:
         for i in range(0, len(session), max_seq_length):
@@ -35,13 +46,9 @@ def discretize_raw_data(raw_mvmts):
                 row["y"] / 4000,
                 action2idx[(row["state"], row["button"])]
          ]
-    def normalize_client_timestamps(session):
-        start_time = session[0][0]
-        for row in session:
-            row[0] -= start_time
-        return session
 
-    sessions = [normalize_client_timestamps([discretize(row) for row in session]) for session in raw_mvmts]
+
+    sessions = [[discretize(row) for row in session] for session in raw_mvmts]
 
     for session in sessions:
         for i, row in enumerate(session):

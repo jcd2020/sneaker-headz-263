@@ -208,8 +208,7 @@ def computeActionFeatures(x, y, t, actionCode, action_sequence, n_from, n_to):
               mean_v, sd_v, max_v, min_v,
               mean_a, sd_a, max_a, min_a,
               mean_jerk, sd_jerk, max_jerk, min_jerk,
-              accTimeAtBeginning,
-              n_from, n_to)
+              accTimeAtBeginning)
 
     return result
 
